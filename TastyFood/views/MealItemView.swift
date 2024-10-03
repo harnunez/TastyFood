@@ -8,7 +8,7 @@
 import SwiftUI
 import SDWebImageSwiftUI
 
-struct MealItem: View {
+struct MealItemView: View {
     
     let meal: Meal
     
@@ -39,6 +39,6 @@ struct MealItem: View {
 }
 
 #Preview {
-    MealItem(meal: Meal())
+    MealItemView(meal: Meal())
     //MealItem(meal: "Chaufita")
 }

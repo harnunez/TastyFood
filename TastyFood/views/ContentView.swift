@@ -33,10 +33,13 @@ struct ContentView: View {
         VStack {
             NavigationView{
                 List(filteredItems){ item in
-                    MealItem(meal: item)
-                    .listRowBackground(Color.clear)
-                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
-                }
+                    ZStack{
+                        MealItemView(meal: item)
+                        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
+                        
+                        NavigationLink(destination: { MealDetailView(meal:item)}){EmptyView()}
+                    }.listRowBackground(Color.clear)
+                 }
                 .navigationTitle("Menu")
                 .searchable(text:$searchText, prompt:"SearchMenu")
                 .onChange(of: searchText){

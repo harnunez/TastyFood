@@ -10,18 +10,20 @@
 		2E95F8D12CA313C400828372 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2E95F8D02CA313C400828372 /* SDWebImageSwiftUI */; };
 		2E9C966A2C9E3484008CAEE6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C96692C9E3484008CAEE6 /* NetworkManager.swift */; };
 		2E9C966C2C9E45E7008CAEE6 /* MenuVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C966B2C9E45E7008CAEE6 /* MenuVM.swift */; };
+		2EB661592CAB5E6800C01D5E /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB661582CAB5E6800C01D5E /* MealDetailView.swift */; };
 		2EC599C02C9B7CB1001422AA /* TastyFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC599BF2C9B7CB1001422AA /* TastyFoodApp.swift */; };
 		2EC599C22C9B7CB1001422AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC599C12C9B7CB1001422AA /* ContentView.swift */; };
 		2EC599C42C9B7CB3001422AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC599C32C9B7CB3001422AA /* Assets.xcassets */; };
 		2EC599C72C9B7CB3001422AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC599C62C9B7CB3001422AA /* Preview Assets.xcassets */; };
 		2EC599CE2C9B8C97001422AA /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC599CD2C9B8C97001422AA /* Meal.swift */; };
 		2EC599D02C9B8F8A001422AA /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC599CF2C9B8F8A001422AA /* Meals.swift */; };
-		2EC599D52C9B96DC001422AA /* MealItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC599D42C9B96DC001422AA /* MealItem.swift */; };
+		2EC599D52C9B96DC001422AA /* MealItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC599D42C9B96DC001422AA /* MealItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E9C96692C9E3484008CAEE6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2E9C966B2C9E45E7008CAEE6 /* MenuVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVM.swift; sourceTree = "<group>"; };
+		2EB661582CAB5E6800C01D5E /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
 		2EC599BC2C9B7CB1001422AA /* TastyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC599BF2C9B7CB1001422AA /* TastyFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyFoodApp.swift; sourceTree = "<group>"; };
 		2EC599C12C9B7CB1001422AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,7 +31,7 @@
 		2EC599C62C9B7CB3001422AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2EC599CD2C9B8C97001422AA /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		2EC599CF2C9B8F8A001422AA /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
-		2EC599D42C9B96DC001422AA /* MealItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItem.swift; sourceTree = "<group>"; };
+		2EC599D42C9B96DC001422AA /* MealItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			children = (
 				2EC599BF2C9B7CB1001422AA /* TastyFoodApp.swift */,
 				2EC599C12C9B7CB1001422AA /* ContentView.swift */,
-				2EC599D42C9B96DC001422AA /* MealItem.swift */,
+				2EC599D42C9B96DC001422AA /* MealItemView.swift */,
+				2EB661582CAB5E6800C01D5E /* MealDetailView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -179,7 +182,8 @@
 				2E9C966A2C9E3484008CAEE6 /* NetworkManager.swift in Sources */,
 				2EC599D02C9B8F8A001422AA /* Meals.swift in Sources */,
 				2EC599C22C9B7CB1001422AA /* ContentView.swift in Sources */,
-				2EC599D52C9B96DC001422AA /* MealItem.swift in Sources */,
+				2EC599D52C9B96DC001422AA /* MealItemView.swift in Sources */,
+				2EB661592CAB5E6800C01D5E /* MealDetailView.swift in Sources */,
 				2E9C966C2C9E45E7008CAEE6 /* MenuVM.swift in Sources */,
 				2EC599CE2C9B8C97001422AA /* Meal.swift in Sources */,
 				2EC599C02C9B7CB1001422AA /* TastyFoodApp.swift in Sources */,

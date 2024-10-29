@@ -10,7 +10,8 @@ import Foundation
 class NetworkManager{
     
     func getMenus(letter: String) async throws -> Meals {
-        guard let url = URL(string: "https://www.themealdb.com/api/json/v1/1/search.php?f=\(letter)")else{
+        guard let url = URL(string: "https://www.themealdb.com/api/json/v1/1/search.php?f=\(letter)")
+        else{
             throw URLError(.badURL)
         }
         
@@ -18,5 +19,4 @@ class NetworkManager{
         return try JSONDecoder().decode(Meals.self,from: data)
         
     }
-    
 }

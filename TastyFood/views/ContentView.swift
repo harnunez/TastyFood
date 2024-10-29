@@ -28,7 +28,7 @@ struct ContentView: View {
             }
         }
 
-    //Test Line
+    
     var body: some View {
         VStack {
             NavigationView{
@@ -59,7 +59,8 @@ struct ContentView: View {
 
 extension ContentView{
     func loadMenu(sMeal: String = "a") async {
-       await menuVM.fetchMenus(charMenu: sMeal)
+       //await menuVM.fetchMenus(charMenu: sMeal)
+       await menuVM.fetchAllMenuByCategory(categoryChar: sMeal)
     }
 }
 
